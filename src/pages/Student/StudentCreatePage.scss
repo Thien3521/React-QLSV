@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    .student-form {
+      display: flex;
+      flex-direction: column;
+  
+      label {
+        margin-bottom: 8px;
+      }
+
+      .error {
+        color: red;
+      }
+  
+      input,
+      select {
+        padding: 8px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+  
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        width: 110px;
+        cursor: pointer;
+      }
+    }
+  }
+  
